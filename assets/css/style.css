@@ -1,0 +1,27 @@
+:root{
+    --primary-color :#032541;
+    --secondary-color:#373b69;
+    --color-white:#fff;
+    ---color-dark:#000;
+}
+
+body{
+    background-image: url(../images/3d-modern-technology-background-with-flowing-connecting-lines_1048-11701.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity:1;
+}
+
+.formCard{
+    background-color: transparent;
+    border:2px solid var(--color-white);
+    color:var(--color-white);
+}
+.bg-bv{
+    background-color: rgb(183, 43, 226);
+}
+.btn.focus, .btn:focus {
+	outline: 0;
+	box-shadow: 0 0 0 .2rem hotpink;
+}
